@@ -34,8 +34,9 @@ let booleanisLoggedIn = Boolean(IsloggedIn)
 // "" => false
 // "sabita" => true
 
-let someNumber = 45
+//let someNumber = 45
 
+let someNumber = 76 
 let stringNumber = String(someNumber)
 console.log(stringNumber)
 console.log(typeof stringNumber)
