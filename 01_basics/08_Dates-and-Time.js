@@ -88,9 +88,8 @@ newDate.toLocaleDateString('default', {
     day: 'numeric'
 
 })
-
-
-
+// console.log(newDate); // 2026-01-31T15:57:15.000Z // current date
+// console.log(newDate.toLocaleDateString('default', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })); // Saturday, January 31, 2026
 
 /******************** Getting Date Components ****************** */
 /* You can retrieve individual components of a date using various methods provided by the Date object.
