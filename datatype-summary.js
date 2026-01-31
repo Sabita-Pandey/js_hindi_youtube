@@ -39,7 +39,15 @@ primitive data types are not collections of values.
 */
 // There are seven primitive data types in JavaScript:
 // 1. String
+
+const name = "John Doe"; // String data type
+//console.log(typeof name); // string
+
 // 2. Number
+
+const age = 30; // Number data type
+//console.log(typeof age); // number
+
 // 3. BigInt
 
 const bigNum = 9007199254741991n; // BigInt data type
@@ -47,8 +55,20 @@ const bigNum = 9007199254741991n; // BigInt data type
 
 
 // 4. Boolean
+
+const isStudent = false; // Boolean data type
+//console.log(typeof isStudent); // boolean
+
 // 5. Null
+
+const emptyValue = null; // Null data type
+//console.log(typeof emptyValue); // object (this is a known quirk in JavaScript)
+
 // 6. Undefined
+
+let undefinedValue; // Undefined data type  
+//console.log(typeof undefinedValue); // undefined
+
 // 7. Symbol
 
 const id = Symbol('4567'); // unique identifier
