@@ -97,10 +97,6 @@ console.log(Math.floor(Math.random() * (max - min + 1)) + min) // random integer
 //********************** EXTRA METHODS ********************* //
 
 
-
-
-
-
 /*
 console.log(Number.isInteger(23)) // true
 console.log(Number.isInteger(23.5)) // false
